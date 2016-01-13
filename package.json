@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch": "watchify example.js -o public/bundle.js -dv & ecstatic public"
+  },
+  "dependencies": {
+    "ecstatic": "^1.4.0",
+    "observ": "^0.2.0",
+    "observ-struct": "^6.0.0",
+    "vel": "^1.1.4"
+  }
+}
